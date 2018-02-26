@@ -1,0 +1,131 @@
+body{background: #f7f7f7}
+    .main{border-top: 2px solid #cdcdcd;}
+    .main-inner{width: 718px; margin:0 auto 50px;}
+    .passwd-nav-box{
+    padding-top: 35px;
+        height: 77px;
+    }
+    .passwd-nav{
+        height: 42px;
+        position: relative;
+    }
+    .passwd-nav li{
+        float: left;
+        display: inline;
+        height: 41px;
+        font-size: 14px;
+        width: 50%;
+        background: url("../images/pic-line.png") repeat-x 0 17px;
+    }
+    .passwd-nav .done{
+        background: url("../images/pic-line2.png") repeat-x 0 17px;
+    }
+    .passwd-nav .first{}
+    .passwd-nav .middle{ margin-left: -75px;}
+    .passwd-nav .last{
+        width: auto!important;
+        position: absolute;
+        right: 0;
+    }
+    .passwd-nav span{
+        float: left;
+        width: auto;
+        padding:0 5px;
+        background-color: #f7f7f7;
+    }
+    .passwd-nav span i{
+        position: relative;
+        width: 41px;
+        height: 41px;
+        background: url("../images/pic.png") -41px top no-repeat;
+        text-align: center;
+        line-height: 41px;
+        font-style: inherit;
+        color: white;
+        font-size: 20px;
+        float: left;
+    }
+
+    .passwd-nav span em{
+        float: left;
+        height: 41px;
+        line-height: 41px;
+        padding-left: 10px;
+        color: #bbbbbb;
+        font-style: inherit;
+    }
+    .passwd-nav .done i{
+        background: url("../images/pic.png") 0 top no-repeat;
+    }
+    .passwd-nav .done em{
+        color: #BB1118;
+    }
+    .wrap-box{
+        width:718px;
+        padding:10px;
+        overflow: hidden;
+    }
+    .inner-box{
+        width: 2154px;
+    }
+    .fill-data-box{
+        position: relative;
+        background: white;
+        padding: 30px 0;
+        border:1px solid #dcdcdc;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #dcdcdc;
+    }
+    .fill-data{
+        width: 298px;
+        height: 276px;
+        margin: 0 auto;
+    }
+    .end-step .fill-data{
+        width:auto;
+        margin: 0 0 0 100px;
+    }
+    .log-success{
+        background: url(../images/log_success.png) top left no-repeat;
+        width: 79px;
+        height: 100%;
+        margin-top: 12px;
+        float: left;
+    }
+    .log-warning{
+        background: url(../images/log_warning.png) top left no-repeat;
+        width: 44px;
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+        float: left;
+    }
+    .log-content{
+        color: #333333;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 16px;
+        line-height: 40px;
+        float: left;
+    }
+    .log-content a{
+        padding: 0 6px;
+        color: #669933;
+    }
+    .fill-data .title{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 26px;
+    }
+    .txt-center{text-align: center}
+    .other-way{
+        margin-top: 20px;
+    }
+    .other-way li{margin-bottom: 10px;font-size: 12px;}
+    .other-way a{color: #74A148;text-decoration: none}
+    #againSendMail{background: #009900;color: white;border: none;height: 30px;border-radius: 3px;}
+    #againSendMail[disabled] {background: #cccccc}
+.captcha-wrap{width: 300px;overflow: hidden;}
+.captcha-box{width: 600px;}
+.captcha-item{float: left;width: 296px; margin-right: 4px}

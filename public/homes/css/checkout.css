@@ -1,0 +1,70 @@
+.checkout-main{background-color:#ffffff;border-radius:4px 4px 0 0;}
+.checkout-main header{height:40px;padding-left:14px;line-height:40px;background-color:#f4f4f4;color:#333;border-bottom: 1px solid #dcdcdc;border-top: 1px solid #dcdcdc;}
+.night .checkout-main header{;background-color:#2B323B;color:#ffffff;border-bottom: none;border-top:none;}
+.user-info{padding: 20px 15px}
+.brtrl{border-radius:4px 4px 0 0;}
+.order-form{padding:5px; width: 600px;}
+.order-form .form-group{margin-bottom:22px;}
+.toggle-order-info{height:42px;line-height:42px;padding-left:24px;border-bottom:1px solid #DBDBDB;color:#E18450;font-size:.875em;cursor:pointer;}
+.toggle-order-info .icon{margin-left:5px;}
+.total-sum{padding:23px 35px 100px 28px;}
+.total-sum p{margin-bottom:12px;}
+.total-sum p>span{text-align:left;display:inline-block;}
+.total-sum .last{margin-bottom:0;padding-top:10px;}
+.total-sum .last button{padding:10px 30px;border-radius:5px;}
+.total-sum a{padding-right:34px;}
+/* order detail info */
+.order-info{border-bottom:1px solid #DBDBDB;font-size:.875em;color:#232323;display:none;overflow:hidden;}
+.order-thead{font-weight:bold;border-bottom:1px solid #DBDBDB;}
+.order-thead,
+.order-body{line-height:2.428571428571429em;padding:0 30px;}
+.order-body{margin-bottom:5px;}
+.goods-name{width:400px;float:left;}
+.goods-count{width:150px;float:left;text-align:center;}
+.goods-price{width:150px;float:left;padding-left:5%;}
+.goods-favorable{width:22.22222222222222%;float:left;text-align:center;}
+.goods-total{width:150px;float:left;text-align:right;}
+.order-accessory .order-item{padding-left:20px;font-size:.75em;font-size:12px\9;}
+.order-accessory .order-item .goods-name:before{content:' ';position:absolute;width:1px;height:34px;background-color:#cccccc;margin-left:-10px;margin-top:-16px;}
+.order-accessory .order-item:first-child .goods-name:before{height:22px;margin-top:-4px;}
+.order-accessory .order-item .goods-name:after{content:' ';position:absolute;width:5px;height:1px;background-color:#cccccc;left:0;top:50%;margin-left:-10px;}
+/* 880 */
+.order-accessory .order-item .goods-name{width:380px;position:relative;}
+.order-accessory .order-item .goods-count{width:150px}
+.order-accessory .order-item .goods-price{width:150px}
+.order-accessory .order-item .goods-favorable{width:22.72727272727273%}
+.order-accessory .order-item .goods-total{width:150px;}
+.coupon-code-box{display:inline-block;padding-left:20px;visibility:hidden;}
+.coupon-code-box.visible{visibility:visible;}
+.coupon-confirm{padding-left: 50px;}
+.form-group .dropdown-box{width:auto}
+/*address list*/
+.user-address-item { width: 202px; height: 82px; border: 1px solid #cfcfcf; color: #666666; font-size: .75em; padding: 12px 8px; margin: 0 5px 10px 5px; cursor: pointer; }
+.user-address-item.address-add-box:hover { border-color: #febc19; }
+.userAddressHover:hover{border-color: #febc19;}
+.user-address-item.active { border-color:#8CC119;color: #000000; background: url("../images/address_selected.png") no-repeat right bottom; }
+.user-address-item h3 { width: 120px; margin-bottom: 12px; }
+.user-address-item span { display: none }
+.userAddressHover:hover span { display: block }
+.user-address-item .link { padding-left: 12px; }
+.user-address-item .link:hover { text-decoration: underline }
+.user-address { height: 32px; margin-bottom: 12px; line-height: 1.2; word-break: break-all; overflow: auto; }
+.user-address-item.address-add-box { border: 1px dashed #cfcfcf; line-height: 82px; text-align: center; font-size: 1.125em; }
+.address-add-box i { font-size: 1.25em; padding-right: 4px }
+.address-from { width: 360px; }
+.coupon-confirm{padding:17px 0 0 85px;min-height:105px;background: url(../images/coupon_tip.jpg) no-repeat 0 11px;}
+.errorTip{font-weight: bold;color:#333;margin-top:8px;}
+.use_tip{color:#999;font-size: 12px;}
+.couponConfirm-btn{height:38px;margin-top: 10px;font-family: "微软雅黑";font-size: 12px;}
+.common-dialog[type="alert"] {
+    border: 0px solid #c7c7c7;
+}
+.order-item-addendum{color:#e18450;}
+.radio.checker span{vertical-align: top;}
+.pay_type_online{position: relative;width:96px;height:34px;float: left;}
+.pay_type_online label{width:96px;}
+.form-group .new{width:23px;height:15px;display: block;background: url(../images/icon.png) no-repeat -27px -124px;top:6px;left:72px;position: absolute;}
+.user-address-list{padding-bottom:10px;}
+.msgText{font-size: 14px;color: #333;font-weight:bold;width:320px;}
+.msgText a{color:#36c;margin-left:10px;}
+.w185{width:155px;}

@@ -1,0 +1,15 @@
+#area {
+    background: url("../images/hot-bg.png") no-repeat scroll 0 0 transparent;
+}
+
+#area .banner {
+    background: none;
+}
+
+#selected-resturant {
+    background: url("../images/selected-bg.png") no-repeat scroll 0 0 transparent;
+}
+
+#cuisines {
+    background: url("../images/cuisines-bg.png") repeat scroll 0 0 transparent;
+}

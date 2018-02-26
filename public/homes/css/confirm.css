@@ -1,0 +1,62 @@
+.confirm-main { background: #fff;margin-bottom: 5px;}
+.confirm-content {width:645px;height:320px; background: url(../images/success.png) no-repeat 76px 72px;}
+.content { padding-left:145px; padding-top: 74px; }
+.content h3 { font-size: 18px; padding-bottom: 10px;color:#333; }
+.content p { margin-bottom: 12px; font-size: 14px;color:#666;}
+.content p a{color:#e18450;}
+.content div { padding-top: 23px; }
+.content .order { font-size: 12px;color:#e18450;text-decoration: underline; }
+.content .orderTip{padding-top:40px;}
+.content span { padding: 0 5px; color: #101010; }
+.content .link-btn{height:32px;line-height:32px;width:88px;text-align: center;display:inline-block;border-radius:3px;}
+.content .link-login{color:#fff;border:1px solid #d88700;background:#ffb02c;}
+.content .link-register{color:#666;border:1px solid #bebebe;background:#eee;}
+.app_download{width:298px;border-left:1px solid #dadada;padding:20px 0 0 16px;background: #f7f7f7;padding-bottom: 40px;}
+.app_download h4{font-size:16px;color: #333;padding-bottom:15px;}
+.app_download p{margin-bottom: 12px; font-size: 14px;color:#333;}
+.app_download .code-img{background: #fff;padding:3px;border-radius:3px;}
+.app_download .down-btn{margin-bottom: 12px;}
+.app_download .down-btn a{background:url(../images/phone_icon.png) no-repeat;border-radius:3px;color:#fff;font-size:12px;height:32px;line-height:32px;display: inline-block;}
+.app_download .down-btn .ios{background-color:#c2c2c2;background-position:22px 7px;padding-left:42px;width:70px;}
+.app_download .down-btn .Android{background-color:#8bc624;background-position:10px -39px;padding-left:28px;width:84px;}
+.chaoren-weixin{width:242px;height:72px;padding:4px;border:1px solid #dedede;background: #eee;border-radius: 3px;}
+.chaoren-weixin img{float:left;}
+.chaoren-weixin p{padding-top:15px;color:#999;padding-left:7px;width:156px;line-height:1.2;float:left;}
+
+.content .c_xkb{color:#e18450;padding: 0;}
+.gift-tip{position:absolute;top:150px;left:50%;display:none;margin-left:-165px;background: url(../images/gift.png) no-repeat;width:230px;height:70px;padding: 124px 0 0 9px;color:#ffe8cc;z-index:9999;}
+.gift-tip em{width:26px;height:26px;display: block;position: absolute;right:0;top:0;background: url(../images/icon.png) no-repeat 0 -117px;cursor:pointer;}
+.gift-tip div{width:200px;text-align: center;}
+.gift-tip p{font-size:12px;padding-top:10px;}
+.gift-tip a{color:#f9bc04;}
+
+/*online_pay*/
+.order-hd{height:58px;line-height:58px;border-bottom:1px solid #e6e6e6;background:#fff url(../images/online_pay.jpg) no-repeat -96px 15px;padding-left: 58px;}
+.order-hd i{color:#f60;margin-right:10px;}
+.order-hd span{color:#999;font-size: 12px;}
+.online-content{width:644px;}
+.online-hd{height:40px;line-height: 40px;}
+.online-pay-content{padding-left: 22px;}
+.online-pay-content img{vertical-align: middle;}
+.order-msg{border:1px solid #e6e6e6;background: #f5f5f5;border-radius: 2px;margin-right: 22px;font-size: 12px;color: #666;padding: 10px 0 0 10px;}
+.order-msg p{margin-bottom: 10px;}
+.order-msg i{color:#f60;}
+.online_footer{text-align: right;padding-right: 22px;color:#666;}
+.online_footer i{color:#f60;}
+.online_footer .button{padding-top: 10px;font-size: 12px;color: #f00;}
+.online_footer a{display: block;float:right;color:#fff;font-size:14px;height:36px;line-height: 36px;text-align: center;width: 96px;background: #81c02f;border-radius: 4px;}
+div.onliePay_tip{padding-top:40px;color:#4f4f4f;}
+.onliePay_tip span{color:#e18450;}
+.online_time{font-weight: bold;}
+.onliePay_tip .btn{display: block;background: #80bf2f;padding:10px 0;width:100px;color:#fff;border-radius: 5px;}
+.pay_commit{color:#4f4f4f;font-size: 14px;}
+.pay_commit span{color:#e18450;}
+.pay_commit p{padding-top: 10px;}
+.common-dialog .ajaxStatus{background: url(../images/loging.gif) no-repeat;}
+.common-dialog .ajaxStatus[disabled]{background: url(../images/loging.gif) no-repeat!important;}
+/*dd ads*/
+.dd-car{width:960px;margin:0 auto;position: relative;}
+.banner-carousel{width:960px;height:90px;padding:0px;}
+.banner-carousel img{width:960px;height:90px;}
+.banner-carousel .banner_list{width:960px;height:90px;}
+.banner-carousel .list{bottom:8px;right:8px;}

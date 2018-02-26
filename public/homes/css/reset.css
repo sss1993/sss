@@ -1,0 +1,41 @@
+/** reset // 最后一个是宋体，倒数2-3个为OSX用*/
+html, body {
+    margin: 0;
+    font-family: arial, verdana, "Hiragino Sans GB", Hiragino Sans GB, "微软雅黑","\5B8B\4F53";
+    -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,dl,p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+header,section,footer,nav,article {
+    display: block;
+}
+img { border: none; }
+input,a {
+    outline: none;
+}
+
+/*---clearer---*/
+.clearer { content: "."; display: block; _display:inline; height: 0; clear: both; visibility: hidden; }
+/*.clear{ overflow:hidden;zoom:;zoom:1;}*/
+* html .clearer { height:1%; }
+.clearer { display:inline-block; }/* Hides from IE-mac \*/
+.clearer { display:block; }/* End hide from IE-mac */
+
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after,.clearfix:before {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+    overflow: hidden;
+   height: 0;
+   clear: both;
+}
+.fs12{font-size: 12px}
+.mt0{margin-top: 0!important;}
+.mb5{margin-bottom: 5px!important;}
+ul{list-style: none}
